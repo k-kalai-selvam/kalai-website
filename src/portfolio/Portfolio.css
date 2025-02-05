@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .portfolios{
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    margin: 55vh 0;
+  }
+
+  .portfolios h2{
+    text-align: center;
+    padding: 50px 0;
+    color: black;
+    align-items: center;
+  }
+
+
+  .portfolio{
+    display: flex;
+    align-items: center;
+    padding: 20px 180px;
+    text-align: center;
+
+
+}
+
+
+
+.heads{
+    display: flex;
+    /* flex-direction: row; */
+    text-align: start;
+    gap: 100px;
+    margin-left: 80px;
+    
+
+    
+}
+
+.head {
+    color: black;
+    gap: 40px;
+    align-items: center;
+    background-color: rgba(245, 241, 241, 0.872);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.203);
+    padding: 20px;
+    
+  }
+  
+  .head p {
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 20px 0;
+    margin: 0; 
+  }
+  
+
+
+.heads :hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+}

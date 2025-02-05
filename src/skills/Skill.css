@@ -1,0 +1,24 @@
+.skills{
+    display: grid;
+    justify-content: center;
+    color: white;
+    margin: 140px;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.skills h2{
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.skill p{
+   font-size: 2.2rem;
+}
